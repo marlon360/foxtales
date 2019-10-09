@@ -4,7 +4,8 @@
     "alias": "foxtales.marlon-lueckert.de",
     "routes": [
         {
-            "src": "./"
+            "src": "/policy",
+            "dest": "/"
         }
     ]
 }
