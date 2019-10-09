@@ -3,10 +3,9 @@
     "name": "foxtales",
     "alias": "foxtales.marlon-lueckert.de",
     "builds": [
-        {
-            "src": "*.html",
-            "use": "@now/static"
-        }
-    ],
-    "root": "policy/"
+        { "src": "./policy/**", "use": "@now/static" }
+      ],
+      "routes": [
+        { "src": "/(.*)", "dest": "policy/$1" }
+      ]
 }
