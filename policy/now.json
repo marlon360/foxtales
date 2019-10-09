@@ -3,6 +3,6 @@
     "name": "foxtales",
     "alias": "foxtales.marlon-lueckert.de",
     "files": [
-        "./"
+        "./policy/*"
     ]
 }
