@@ -1,0 +1,119 @@
+fileFormatVersion: 2
+guid: 15e5f852eace2f449b3dfdcb06224add
+timeCreated: 1496167679
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: aeste
+    100002: //RootNode
+    100004: lampe
+    100006: lampe_halterung
+    100008: stein
+    100010: torbogen
+    100012: torbogen1
+    100014: tuer_links
+    100016: tuer_rechts
+    400000: aeste
+    400002: //RootNode
+    400004: lampe
+    400006: lampe_halterung
+    400008: stein
+    400010: torbogen
+    400012: torbogen1
+    400014: tuer_links
+    400016: tuer_rechts
+    2300000: aeste
+    2300002: lampe
+    2300004: lampe_halterung
+    2300006: stein
+    2300008: torbogen
+    2300010: torbogen1
+    2300012: tuer_links
+    2300014: tuer_rechts
+    3300000: aeste
+    3300002: lampe
+    3300004: lampe_halterung
+    3300006: stein
+    3300008: torbogen
+    3300010: torbogen1
+    3300012: tuer_links
+    3300014: tuer_rechts
+    4300000: torbogen
+    4300002: lampe
+    4300004: lampe_halterung
+    4300006: stein
+    4300008: aeste
+    4300010: torbogen1
+    4300012: tuer_links
+    4300014: tuer_rechts
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

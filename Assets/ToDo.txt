@@ -1,0 +1,10 @@
+﻿To Do Liste:
+
+Hinweis an Tür, dass (wenn) Level schon geschafft wurde.
+
+Vom Hauptmenü ins Hauptlevel zurück springen. 
+
+Sounds
+	Hintergrundmusik
+	Geräusch, wenn Schlüssel eingesammelt
+	Geräusch für Klick

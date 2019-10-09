@@ -1,0 +1,992 @@
+fileFormatVersion: 2
+guid: 76a7908c0978f3e47a6129694c704dfc
+timeCreated: 1501766569
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: char_copy000
+    100002: ear01_l
+    100004: ear01_r
+    100006: ear02_l
+    100008: ear02_r
+    100010: earCon_l
+    100012: earCon_r
+    100014: ellbow_l
+    100016: ellbow_r
+    100018: foot_l
+    100020: foot_r
+    100022: footCon_l
+    100024: footCon_r
+    100026: footIK_l
+    100028: footIK_r
+    100030: geo
+    100032: globalCon
+    100034: hand_l
+    100036: hand_r
+    100038: handCon_l
+    100040: handCon_r
+    100042: handIK_l
+    100044: handIK_r
+    100046: head
+    100048: hip_l
+    100050: hip_r
+    100052: kleidung
+    100054: knee_l
+    100056: knee_r
+    100058: //RootNode
+    100060: nase
+    100062: neck
+    100064: neckCon
+    100066: ohrRing
+    100068: RetopoGroup1
+    100070: root
+    100072: rootCon
+    100074: shoulder_l
+    100076: shoulder_r
+    100078: spine_01
+    100080: spine_02
+    100082: spineCon
+    100084: stirn
+    100086: tail01Con
+    100088: tail02Con
+    100090: tail03Con
+    100092: tail_00
+    100094: tail_01
+    100096: tail_02
+    100098: tail_03
+    100100: toe_l
+    100102: toe_r
+    400000: char_copy000
+    400002: ear01_l
+    400004: ear01_r
+    400006: ear02_l
+    400008: ear02_r
+    400010: earCon_l
+    400012: earCon_r
+    400014: ellbow_l
+    400016: ellbow_r
+    400018: foot_l
+    400020: foot_r
+    400022: footCon_l
+    400024: footCon_r
+    400026: footIK_l
+    400028: footIK_r
+    400030: geo
+    400032: globalCon
+    400034: hand_l
+    400036: hand_r
+    400038: handCon_l
+    400040: handCon_r
+    400042: handIK_l
+    400044: handIK_r
+    400046: head
+    400048: hip_l
+    400050: hip_r
+    400052: kleidung
+    400054: knee_l
+    400056: knee_r
+    400058: //RootNode
+    400060: nase
+    400062: neck
+    400064: neckCon
+    400066: ohrRing
+    400068: RetopoGroup1
+    400070: root
+    400072: rootCon
+    400074: shoulder_l
+    400076: shoulder_r
+    400078: spine_01
+    400080: spine_02
+    400082: spineCon
+    400084: stirn
+    400086: tail01Con
+    400088: tail02Con
+    400090: tail03Con
+    400092: tail_00
+    400094: tail_01
+    400096: tail_02
+    400098: tail_03
+    400100: toe_l
+    400102: toe_r
+    4300000: RetopoGroup1
+    4300002: char_copy000
+    4300004: nase
+    4300006: stirn
+    4300008: ohrRing
+    4300010: kleidung
+    7400000: Take 001
+    7400002: run
+    7400004: idle
+    7400006: idle_lookLeft
+    7400008: idle_scratch
+    7400010: stoneMove
+    9500000: //RootNode
+    13700000: char_copy000
+    13700002: kleidung
+    13700004: nase
+    13700006: ohrRing
+    13700008: RetopoGroup1
+    13700010: stirn
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geo
+        weight: 1
+      - path: geo/char_copy000
+        weight: 1
+      - path: geo/kleidung
+        weight: 1
+      - path: geo/nase
+        weight: 1
+      - path: geo/ohrRing
+        weight: 1
+      - path: geo/RetopoGroup1
+        weight: 1
+      - path: geo/stirn
+        weight: 1
+      - path: globalCon
+        weight: 1
+      - path: globalCon/footCon_l
+        weight: 1
+      - path: globalCon/footCon_l/footIK_l
+        weight: 1
+      - path: globalCon/footCon_r
+        weight: 1
+      - path: globalCon/footCon_r/footIK_r
+        weight: 1
+      - path: globalCon/rootCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l/handIK_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r/handIK_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_r
+        weight: 1
+      - path: globalCon/rootCon/tail01Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con/tail03Con
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip_l
+        weight: 1
+      - path: root/hip_l/knee_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l/toe_l
+        weight: 1
+      - path: root/hip_r
+        weight: 1
+      - path: root/hip_r/knee_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r/toe_r
+        weight: 1
+      - path: root/spine_01
+        weight: 1
+      - path: root/spine_01/spine_02
+        weight: 1
+      - path: root/spine_01/spine_02/neck
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l/ear02_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r/ear02_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l/hand_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r/hand_r
+        weight: 1
+      - path: root/tail_00
+        weight: 1
+      - path: root/tail_00/tail_01
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02/tail_03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geo
+        weight: 1
+      - path: geo/char_copy000
+        weight: 1
+      - path: geo/kleidung
+        weight: 1
+      - path: geo/nase
+        weight: 1
+      - path: geo/ohrRing
+        weight: 1
+      - path: geo/RetopoGroup1
+        weight: 1
+      - path: geo/stirn
+        weight: 1
+      - path: globalCon
+        weight: 1
+      - path: globalCon/footCon_l
+        weight: 1
+      - path: globalCon/footCon_l/footIK_l
+        weight: 1
+      - path: globalCon/footCon_r
+        weight: 1
+      - path: globalCon/footCon_r/footIK_r
+        weight: 1
+      - path: globalCon/rootCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l/handIK_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r/handIK_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_r
+        weight: 1
+      - path: globalCon/rootCon/tail01Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con/tail03Con
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip_l
+        weight: 1
+      - path: root/hip_l/knee_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l/toe_l
+        weight: 1
+      - path: root/hip_r
+        weight: 1
+      - path: root/hip_r/knee_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r/toe_r
+        weight: 1
+      - path: root/spine_01
+        weight: 1
+      - path: root/spine_01/spine_02
+        weight: 1
+      - path: root/spine_01/spine_02/neck
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l/ear02_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r/ear02_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l/hand_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r/hand_r
+        weight: 1
+      - path: root/tail_00
+        weight: 1
+      - path: root/tail_00/tail_01
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02/tail_03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 114
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geo
+        weight: 1
+      - path: geo/char_copy000
+        weight: 1
+      - path: geo/kleidung
+        weight: 1
+      - path: geo/nase
+        weight: 1
+      - path: geo/ohrRing
+        weight: 1
+      - path: geo/RetopoGroup1
+        weight: 1
+      - path: geo/stirn
+        weight: 1
+      - path: globalCon
+        weight: 1
+      - path: globalCon/footCon_l
+        weight: 1
+      - path: globalCon/footCon_l/footIK_l
+        weight: 1
+      - path: globalCon/footCon_r
+        weight: 1
+      - path: globalCon/footCon_r/footIK_r
+        weight: 1
+      - path: globalCon/rootCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l/handIK_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r/handIK_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_r
+        weight: 1
+      - path: globalCon/rootCon/tail01Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con/tail03Con
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip_l
+        weight: 1
+      - path: root/hip_l/knee_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l/toe_l
+        weight: 1
+      - path: root/hip_r
+        weight: 1
+      - path: root/hip_r/knee_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r/toe_r
+        weight: 1
+      - path: root/spine_01
+        weight: 1
+      - path: root/spine_01/spine_02
+        weight: 1
+      - path: root/spine_01/spine_02/neck
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l/ear02_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r/ear02_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l/hand_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r/hand_r
+        weight: 1
+      - path: root/tail_00
+        weight: 1
+      - path: root/tail_00/tail_01
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02/tail_03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_lookLeft
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geo
+        weight: 1
+      - path: geo/char_copy000
+        weight: 1
+      - path: geo/kleidung
+        weight: 1
+      - path: geo/nase
+        weight: 1
+      - path: geo/ohrRing
+        weight: 1
+      - path: geo/RetopoGroup1
+        weight: 1
+      - path: geo/stirn
+        weight: 1
+      - path: globalCon
+        weight: 1
+      - path: globalCon/footCon_l
+        weight: 1
+      - path: globalCon/footCon_l/footIK_l
+        weight: 1
+      - path: globalCon/footCon_r
+        weight: 1
+      - path: globalCon/footCon_r/footIK_r
+        weight: 1
+      - path: globalCon/rootCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l/handIK_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r/handIK_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_r
+        weight: 1
+      - path: globalCon/rootCon/tail01Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con/tail03Con
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip_l
+        weight: 1
+      - path: root/hip_l/knee_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l/toe_l
+        weight: 1
+      - path: root/hip_r
+        weight: 1
+      - path: root/hip_r/knee_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r/toe_r
+        weight: 1
+      - path: root/spine_01
+        weight: 1
+      - path: root/spine_01/spine_02
+        weight: 1
+      - path: root/spine_01/spine_02/neck
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l/ear02_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r/ear02_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l/hand_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r/hand_r
+        weight: 1
+      - path: root/tail_00
+        weight: 1
+      - path: root/tail_00/tail_01
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02/tail_03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_scratch
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 169
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geo
+        weight: 1
+      - path: geo/char_copy000
+        weight: 1
+      - path: geo/kleidung
+        weight: 1
+      - path: geo/nase
+        weight: 1
+      - path: geo/ohrRing
+        weight: 1
+      - path: geo/RetopoGroup1
+        weight: 1
+      - path: geo/stirn
+        weight: 1
+      - path: globalCon
+        weight: 1
+      - path: globalCon/footCon_l
+        weight: 1
+      - path: globalCon/footCon_l/footIK_l
+        weight: 1
+      - path: globalCon/footCon_r
+        weight: 1
+      - path: globalCon/footCon_r/footIK_r
+        weight: 1
+      - path: globalCon/rootCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l/handIK_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r/handIK_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_r
+        weight: 1
+      - path: globalCon/rootCon/tail01Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con/tail03Con
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip_l
+        weight: 1
+      - path: root/hip_l/knee_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l/toe_l
+        weight: 1
+      - path: root/hip_r
+        weight: 1
+      - path: root/hip_r/knee_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r/toe_r
+        weight: 1
+      - path: root/spine_01
+        weight: 1
+      - path: root/spine_01/spine_02
+        weight: 1
+      - path: root/spine_01/spine_02/neck
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l/ear02_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r/ear02_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l/hand_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r/hand_r
+        weight: 1
+      - path: root/tail_00
+        weight: 1
+      - path: root/tail_00/tail_01
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02/tail_03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stoneMove
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geo
+        weight: 1
+      - path: geo/char_copy000
+        weight: 1
+      - path: geo/kleidung
+        weight: 1
+      - path: geo/nase
+        weight: 1
+      - path: geo/ohrRing
+        weight: 1
+      - path: geo/RetopoGroup1
+        weight: 1
+      - path: geo/stirn
+        weight: 1
+      - path: globalCon
+        weight: 1
+      - path: globalCon/footCon_l
+        weight: 1
+      - path: globalCon/footCon_l/footIK_l
+        weight: 1
+      - path: globalCon/footCon_r
+        weight: 1
+      - path: globalCon/footCon_r/footIK_r
+        weight: 1
+      - path: globalCon/rootCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_l/handIK_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/handCon_r/handIK_r
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_l
+        weight: 1
+      - path: globalCon/rootCon/spineCon/neckCon/earCon_r
+        weight: 1
+      - path: globalCon/rootCon/tail01Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con
+        weight: 1
+      - path: globalCon/rootCon/tail01Con/tail02Con/tail03Con
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hip_l
+        weight: 1
+      - path: root/hip_l/knee_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l
+        weight: 1
+      - path: root/hip_l/knee_l/foot_l/toe_l
+        weight: 1
+      - path: root/hip_r
+        weight: 1
+      - path: root/hip_r/knee_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r
+        weight: 1
+      - path: root/hip_r/knee_r/foot_r/toe_r
+        weight: 1
+      - path: root/spine_01
+        weight: 1
+      - path: root/spine_01/spine_02
+        weight: 1
+      - path: root/spine_01/spine_02/neck
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_l/ear02_l
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r
+        weight: 1
+      - path: root/spine_01/spine_02/neck/head/ear01_r/ear02_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_l/ellbow_l/hand_l
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r
+        weight: 1
+      - path: root/spine_01/spine_02/shoulder_r/ellbow_r/hand_r
+        weight: 1
+      - path: root/tail_00
+        weight: 1
+      - path: root/tail_00/tail_01
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02
+        weight: 1
+      - path: root/tail_00/tail_01/tail_02/tail_03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
