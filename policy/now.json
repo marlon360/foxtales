@@ -2,7 +2,16 @@
     "version": 2,
     "name": "foxtales",
     "alias": "foxtales.marlon-lueckert.de",
-    "files": [
-        "./policy/*"
+    "builds": [
+        {
+            "src": "*.html",
+            "use": "@now/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/*",
+            "dest": "/policy"
+        },
     ]
 }
