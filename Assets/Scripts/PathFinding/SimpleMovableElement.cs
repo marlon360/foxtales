@@ -47,11 +47,14 @@ public class SimpleMovableElement : SimplePathElement {
 
 	SimpleMovableElement parent;
 
+	private CameraOrbit cameraOrbit;
+
 	void Start(){
 		updateStartPosition ();
 		stoneRenderer = GetComponentInChildren<Renderer> ();
 		mat = stoneRenderer.material;
 		parent = this;
+		cameraOrbit = FindObjectOfType<CameraOrbit>();
 	}
 
 
@@ -213,6 +216,10 @@ public class SimpleMovableElement : SimplePathElement {
 
 		setPosition (dragPosition);
 
+		if (IsPlayerOnTop()) {
+			cameraOrbit.enabled = false;
+		}
+
 	}
 
 	public void updateMin(){
@@ -264,7 +271,7 @@ public class SimpleMovableElement : SimplePathElement {
 
 		getLevel ().updateAllMoveRanges ();
 
-
+		cameraOrbit.enabled = true;
 	}
 		
 

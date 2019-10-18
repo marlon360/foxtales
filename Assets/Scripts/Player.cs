@@ -14,6 +14,7 @@ public class Player : MonoBehaviour {
 	float offset;
 
 	public float speed = 4f;
+	public float rotationSpeed = 4f;
 
 	CharacterController cc;
 	float distanceToStop = 0.1f;
@@ -126,7 +127,7 @@ public class Player : MonoBehaviour {
 
 	void RotateTowardsTarget(Vector3 target){
 		Vector3 diff = destination - transform.position;
-		transform.forward = Vector3.RotateTowards(transform.forward,diff, speed*2*Time.deltaTime, 0.0f);
+		transform.forward = Vector3.RotateTowards(transform.forward,diff, rotationSpeed*Time.deltaTime, 0.0f);
 	}
 
 	void walkTo(Vector3 destination){
