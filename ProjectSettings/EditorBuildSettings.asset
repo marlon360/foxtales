@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 3b2310411b1e98c45a129a33ef0363dc
   - enabled: 1
     path: Assets/scenes/levelTutorial_mobil.unity
     guid: b5245886f5333334c8bedda4890b3e42
@@ -32,3 +29,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/levelF_mobil.unity
     guid: 59bec89a9f65846438bf2a97e6306746
+  m_configObjects: {}
